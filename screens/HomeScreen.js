@@ -235,7 +235,7 @@ const HomeScreen = ({navigation}) => {
             <View style={{
                 marginBottom: 220,
                 paddingTop: 20
-            }}>
+            }}> 
                 <FlatList
                     data={accounts}
                     renderItem={PeopleComponent}
